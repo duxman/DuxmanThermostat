@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="abb68f6f-7f28-4542-b9f9-0b21e8edf36f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/epaperhat/2.9inch-e-paper-module-user-manual-en.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/epaperhat/2.9inch_e-Paper_Module_code.7z" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/epaperhat/2.9inch_e-Paper_Module_code_particle.7z" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/epaperhat/2.9inch_e-Paper_Schematic.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/epaperhat/instructable.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/epaperhat/new font.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/exe/php.7z" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/lcdhat/1.3inch-LCD-HAT-Schematic.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/lcdhat/1.3inch_LCD_HAT.tar.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/lcdhat/1.3inch_lcd_hat_user_manual_en.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/lcdhat/ST7789_Datasheet.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/lcdhat/raspberry-pi-driver.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/python/influx_client-1.7.2-py3-none-any.whl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/python/influxdb-5.2.1-py2.py3-none-any.whl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/python/pyowm-2.10.0-py3-none-any.whl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/installpip.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emulator/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/emulator/emulators.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/urls.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thermostat.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/Config.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/WeatherServices.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/cgi/store.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/cgi/store.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/config/I2CConfig.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/config/ProgramConfiguration.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/config/Zones.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/config/configuracion.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/config/old/configuration.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/config/old/led1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/config/old/led2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/config/old/leds.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/config/old/programacion.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/config/programacion.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/editor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/gui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery-3.2.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jsoneditor.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/require.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/schemas/schConfiguracion.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/schemas/schMCPConfs.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/schemas/schProgramConfiguration.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/schemas/schPrograma.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/schemas/schPrograms.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/schemas/schZones.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/InfluxDBStudio-0.2.0/InfluxDBStudio.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/InfluxDBStudio-0.2.0/InfluxDBStudio.exe.config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/InfluxDBStudio-0.2.0/InfluxDBStudio.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/InfluxDBStudio-0.2.0/InfluxDBStudio.vshost.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/InfluxDBStudio-0.2.0/InfluxDBStudio.vshost.exe.config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/InfluxDBStudio-0.2.0/InfluxData.Net.Common.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/InfluxDBStudio-0.2.0/InfluxData.Net.Common.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/InfluxDBStudio-0.2.0/InfluxData.Net.InfluxDb.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/InfluxDBStudio-0.2.0/InfluxData.Net.InfluxDb.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/InfluxDBStudio-0.2.0/InfluxData.Net.Kapacitor.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/InfluxDBStudio-0.2.0/InfluxData.Net.Kapacitor.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/InfluxDBStudio-0.2.0/InfluxData.Net.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/InfluxDBStudio-0.2.0/InfluxData.Net.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/InfluxDBStudio-0.2.0/Microsoft.Threading.Tasks.Extensions.Desktop.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/InfluxDBStudio-0.2.0/Microsoft.Threading.Tasks.Extensions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/InfluxDBStudio-0.2.0/Microsoft.Threading.Tasks.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/InfluxDBStudio-0.2.0/Newtonsoft.Json.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/InfluxDBStudio-0.2.0/System.Net.Http.Extensions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/InfluxDBStudio-0.2.0/System.Net.Http.Primitives.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/InfluxDBStudio-0.2.0/System.Net.Http.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/InfluxDBStudio-0.2.0/System.Security.Cryptography.Algorithms.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/InfluxDBStudio-0.2.0/System.Security.Cryptography.Encoding.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/InfluxDBStudio-0.2.0/System.Security.Cryptography.Primitives.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/InfluxDBStudio-0.2.0/System.Security.Cryptography.X509Certificates.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/InfluxDBStudio-0.2.0/log4net.dll" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/InfluxDBStudio-0.2.0/ScintillaNET.dll" afterPath="$PROJECT_DIR$/resources/exe/InfluxDBStudio-0.2.0.7z" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="thermostat.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thermostat.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="codecs.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/DEV/Python/3.6.5/Lib/codecs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="310" column="0" lean-forward="false" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeatherServices.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/WeatherServices.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="emulators.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/emulator/emulators.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="62" lean-forward="false" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StopableThread.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/StopableThread.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="threading.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/DEV/Python/3.6.5/Lib/threading.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="915" column="0" lean-forward="false" selection-start-line="915" selection-start-column="0" selection-end-line="915" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="queue.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/DEV/Python/3.6.5/Lib/queue.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Config.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/Config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/DEV/Python/3.6.5/Lib/site-packages/influx/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="62" column="8" lean-forward="false" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ThermostatConsumerThreat.py" />
+        <option value="$PROJECT_DIR$/ThermostatThreat.py" />
+        <option value="$PROJECT_DIR$/utils/StopableThreadConsumer.py" />
+        <option value="$PROJECT_DIR$/utils/StopableThread.py" />
+        <option value="$PROJECT_DIR$/utils/Config.py" />
+        <option value="$PROJECT_DIR$/emulator/emulators.py" />
+        <option value="$PROJECT_DIR$/utils/WeatherServices.py" />
+        <option value="$PROJECT_DIR$/thermostat.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="120" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DuxmanThermostat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DuxmanThermostat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DuxmanThermostat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DuxmanThermostat" type="462c0819:PsiDirectoryNode" />
+              <item name="emulator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DuxmanThermostat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DuxmanThermostat" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/thermostat.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Unnamed">
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\DEV\Python\3.6.5\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DuxmanThermostat" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/thermostat.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="abb68f6f-7f28-4542-b9f9-0b21e8edf36f" name="Default" comment="" />
+      <created>1547103607716</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547103607716</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26066098" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="9" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/thermostat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emulator/emulators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/DEV/Python/3.6.5/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15453">
+          <caret line="915" column="0" lean-forward="false" selection-start-line="915" selection-start-column="0" selection-end-line="915" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/DEV/Python/3.6.5/Lib/queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/Config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/DEV/Python/3.6.5/Lib/site-packages/influx/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="62" column="8" lean-forward="false" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/sensor_logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="43" column="9" lean-forward="false" selection-start-line="31" selection-start-column="7" selection-end-line="43" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/StopableThread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thermostat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="44" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="17" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/Config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/DEV/Python/3.6.5/Lib/site-packages/influx/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="62" column="8" lean-forward="false" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/installpip.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/sensor_logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="45" column="8" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThermostatThreat.py" />
+    <entry file="file://$PROJECT_DIR$/thermostat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/installpip.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/sensor_logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thermostat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/installpip.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/sensor_logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/DEV/Python/3.6.5/Lib/site-packages/queuelib/queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="29" column="11" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/installpip.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/DEV/Python/3.6.5/Lib/queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThermostatThreat.py" />
+    <entry file="file://$PROJECT_DIR$/utils/Config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/DEV/Python/3.6.5/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="915" column="0" lean-forward="false" selection-start-line="915" selection-start-column="0" selection-end-line="915" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/StopableThread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emulator/emulators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="62" lean-forward="false" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/sensor_logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/DEV/Python/3.6.5/Lib/site-packages/influx/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="62" column="8" lean-forward="false" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/DEV/Python/3.6.5/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="310" column="0" lean-forward="false" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/WeatherServices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thermostat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

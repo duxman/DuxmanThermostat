@@ -1,0 +1,69 @@
+{
+	"title" : "General Config",
+	"type" : "object",
+	"id" : "Configuration",
+	"properties" :
+	{
+		"Temperatures" :
+		{
+		  "type"  : "array",
+		  "format": "table",
+		  "title" : "Temperature Configuration",
+		  "items" : 
+		  {
+			"type": "object",
+			"properties": 
+			{
+				"TemperatureName" : {"type": "string"},
+				"Temperature" : {"type": "string"}
+			}
+			
+		  }     
+		},
+		
+		"Day Programation" :
+		{
+			"type" : "object",
+			"properties" :
+			{
+			
+		
+				"Day": {"type": "string", "enum": ["Lunes", "Martes","Miercoles","Jueves","Viernes","Sabado","Domingo"]},
+				"Horas"    : 
+				{
+					"type"  : "array",
+					"format": "tabs",
+					"title" : "Configuracion horaria",
+					"items" : 
+					{
+						"title"     : "Horas",
+						"type"      : "object",
+						"properties": 
+						{
+							"Hora Desde"  : {"type": "string"},
+							"Hora Hasta": {"type": "string"},
+							"Temperatura": 
+							{
+								"type": "string",
+								"template": "{{item.Temperature}} ºC ",
+								"watch": 
+								{ 				
+									"Temps": "Temperatures" 
+							
+								},
+								"enumSource":
+								[{	
+									"source": "Temps",
+									"value": "{{item.Temperature}}"
+								}]			
+							}						
+						}
+					}
+				}
+			}
+        }
+    }
+}
+		
+		
+		
