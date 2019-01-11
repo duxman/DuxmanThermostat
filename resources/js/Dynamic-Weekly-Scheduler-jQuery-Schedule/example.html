@@ -1,0 +1,65 @@
+<html>
+<script src="dist/jquery.min.js"></script>
+<script src="dist/jquery-ui.min.js"></script>
+<script src="dist/jquery.schedule.js"></script>
+<link rel="stylesheet" href="dist/jquery.schedule.css">
+ <link rel="stylesheet" href="dist/bootstrap.min.css">
+<body>
+ 
+<button type="button" class="btn btn-primary" id="import1" onclick="add()" >Import1</button>
+<button type="button" class="btn btn-primary" id="import2" onclick="add2()">Import2</button>
+<button type="button" class="btn btn-primary" id="import3" onclick="add3()" >Import3</button>
+
+ <div class="row">
+	<div class="col">
+		<div id="schedule" class="jqs-demo mb-3"></div>
+    </div>
+</div>
+
+</body>
+<script>
+var  calen = null
+ 
+  $(	function () 
+		{
+			calen = $('#schedule').jqs
+			(
+				{
+					mode: 'editlimit',
+					daysList: ["Lunes","Martes",'Miercoles','Jueves','Viernes','Sabado','Domingo'],
+					hour: 24,					
+					periodDuration: 5,
+					periodOptions: true,
+					
+					onInit: function () {},
+					onAddPeriod: addperiodo,
+					onRemovePeriod: function () {},
+					onDuplicatePeriod: function () {},
+					onClickPeriod: function () {}
+				}
+			);
+		}
+	);
+	function add()
+	{
+		$('#schedule').jqs("import",[{day: 1,periods: [ ['8:10', '10:00']     ]}]);
+	}
+	function add2()
+	{
+		$('#schedule').jqs("import",[{day: 1,periods: [ ['10:10', '12:00']     ]}]);
+	}
+	function add3()
+	{
+		$('#schedule').jqs("import",[{day: 1,periods: [ ['9:00', '11:00']     ]}]);
+	}
+	function addperiodo()
+	{
+		alert("added");
+	}
+	
+</script>
+</html>
+
+
+
+

@@ -9,7 +9,7 @@ else:
 from  queue import Queue
 from utils.Config import ConfigLoader
 from utils.StopableThread import StopableConsumerThread, StopableProduceThread
-from utils.WeatherServices import DHT22
+from utils.WeatherServices import DHT22, OWM
 from utils.logger import clienteLog
 from influx import InfluxDB
 
@@ -23,6 +23,7 @@ class DuxmanThermostat(object):
     ThermostatConsumerThreat = None
     ThermostatProducerThreats = []
     Dht22Service = None
+    OWMService = None
 
     def WriteInfluxData(self,data):
         self.DBClient.write_points(data)
@@ -43,6 +44,7 @@ class DuxmanThermostat(object):
 
     def CreateWeatherServices(self):
         self.Dht22Service = DHT22("NONE",17, self.Configuration.TableData,self.Configuration.Location, self.Logger)
+        self.OWMService = OWM(self.Configuration.TableData,self.Configuration.Location,self.Logger)
 
     def __init__(self):
         cliente = clienteLog()
@@ -55,7 +57,7 @@ class DuxmanThermostat(object):
         self.DBClient =  InfluxDB(self.Configuration.DBUrl)
 
         if ( EMULATE == True ):
-            self.Configuration.SleepTime = 1
+            self.Configuration.SleepTime = 60
             self.Configuration.TableData = "Emulation"
             self.Configuration.Location = "Emulation Place"
         else :
@@ -63,7 +65,8 @@ class DuxmanThermostat(object):
 
         self.CreateWeatherServices()
 
-        self.CreateProducerThreat(name="DHT22LocalSensorThreatProducer", target=self.Dht22Service.GetDHTLocalSensor )
+        self.CreateProducerThreat(name="DHT22LocalSensorThreatProducer", target=self.Dht22Service.GetData )
+        self.CreateProducerThreat(name="OWMSensorThreatProducer", target=self.OWMService.GetData)
 
 if __name__ == "__main__":
     mainprogram = DuxmanThermostat()
