@@ -43,7 +43,7 @@ class DuxmanThermostat(object):
         self.Configuration = ConfigLoader();
 
     def CreateWeatherServices(self):
-        self.Dht22Service = DHT22("NONE",17, self.Configuration.TableData,self.Configuration.Location, self.Logger)
+        self.Dht22Service = DHT22(Adafruit_DHT.DHT22,17, self.Configuration.TableData,self.Configuration.Location, self.Logger)
         self.OWMService = OWM(self.Configuration.TableData,self.Configuration.Location,self.Logger)
 
     def __init__(self):
