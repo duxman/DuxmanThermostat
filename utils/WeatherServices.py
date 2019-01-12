@@ -16,12 +16,8 @@ CITY_ID = 3104323
 #         "lat": 41.583328
 #     }
 
-if os.name == 'poxis':
-    import Adafruit_DHT
-else:
-    from emulator.emulators import emulator_Adafruit_DHT
-    Adafruit_DHT = emulator_Adafruit_DHT()
-    EMULATE = True
+
+import Adafruit_DHT
 
 class SensorData(object):
     TableData = "None"
@@ -35,7 +31,7 @@ class SensorData(object):
 
 
     def GenerateJsonData(self, timeset, humidity, temperature):
-        data = [{"measurement": self.TableData,"tags": {"location": self.Location,},"time":timeset,"fields": {"temperature": temperature,"humidity": humidity}}]
+        data = [{"measurement": self.TableData,"tags": {"location": self.Location,},"time":timeset,"fields": {"temperature": float(temperature),"humidity": float(humidity)}}]
         return data
 
 class DHT22(SensorData):
@@ -54,7 +50,7 @@ class DHT22(SensorData):
 
     def GetData(self):
 
-        humidity, temperature = Adafruit_DHT.read_retry( sensortype=self.SensorType, sensorpin=self.SensorGpio)
+        humidity, temperature = Adafruit_DHT.read_retry( Adafruit_DHT.DHT22, self.SensorGpio)
 
         iso = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         data = self.GenerateJsonData(timeset=iso, humidity=humidity, temperature=temperature)
